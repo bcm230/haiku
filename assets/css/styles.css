@@ -1,17 +1,21 @@
 /* styles.css */
+* {
+    font-family: Arial, Arial, Helvetica, sans-serif, serif, DotGothic16;
+}
 
+/*Yuji Syuku*/
 html {
     width: 100%;
     height: 100%;
 }
 
 body {
-    margin: 1rem;
+    margin: 10rem;
     background-color: black;
-    color: whitesmoke;
-    font-size: 5rem;
+    color: black;
+    font-size:5rem;
     overflow: hidden;
-    background-image: url(../img/flames.gif);
+    background-image: url(../img/cloud.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,16 +35,15 @@ div {
 }
 
 .last {
-    padding-bottom: 2rem;
-    border-bottom: 2px solid rgb(220, 200, 100);
+    padding-bottom: 1rem;
+    border-bottom: 5px solid rgb(127, 168, 235);
 }
 
-/*
+
 .last:hover {
     animation-name: growAndGlow;
-    animation-duration: 3s;
+    animation-duration: 10s;
 }
-*/
 
 @keyframes growAndGlow {
     from {
@@ -48,12 +51,12 @@ div {
     }
 
     50% {
-        color: dodgerblue;
+        color: rgb(127, 168, 235);
         transform: skewX(30deg);
     }
 
     to {
-        transform: scale(3);
-        color: red;
+        color: rgb(127, 168, 235);
+        transform: skewX(30deg);
     }
 }

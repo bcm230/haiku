@@ -2,9 +2,15 @@
 
 let grid = document.querySelectorAll(".grid-container");
 let divs = document.querySelectorAll(".grid-container div");
+let audio = document.getElementById("bg-audio");
 
 function randomize() {
     console.log(divs.length, "randomize!")
+
+    //play audio on first click
+    if (audio.paused) {
+        audio.play();
+    }
 
     //this code affects the whole grid
     grid[0].style.transform = `rotate(${Math.random() * 360}deg)`;
