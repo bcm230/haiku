@@ -1,6 +1,12 @@
 /* styles.css */
 * {
-    font-family: Arial, Arial, Helvetica, sans-serif, serif, DotGothic16;
+    font-family: Arial, Arial, Helvetica, sans-serif, serif, DotGothic16, Tiny5;
+}
+
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Yuji Syuku*/
@@ -19,6 +25,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 .grid-container {
@@ -32,8 +39,19 @@ body {
 div {
     transition-property: transform;
     transition-duration: 3s;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Tiny5", DotGothic16, sans-serif;
 }
 
+a {
+    font-family: "Tiny5", DotGothic16, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
 .last {
     padding-bottom: 1rem;
     border-bottom: 5px solid rgb(127, 168, 235);
